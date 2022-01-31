@@ -88,6 +88,11 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+#button:hover {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  transition: var(--main-duration);
+}
 /* End Top Button */
 /* Start Header */
 .header {
